@@ -97,11 +97,11 @@ body {
 
 
 
-#content {
+/* #content {
     width: 100%;
     min-height: 200px;
-    /* background-color: slategrey; */
-}
+    background-color: slategrey;
+} */
 
 .section1 {
     width: 100%;
@@ -423,14 +423,15 @@ p{
     .container {
         width: 1140px;
     }
+.btn-group{
+    padding: 0 20px;
+}
 }
 
 @media(max-width:1140px){
     .container {
         width: 960px;
     }
-
-    
 
     .textbox{
         min-height:350px;
@@ -448,6 +449,8 @@ p{
     
     }
     
+    
+
     .textboxall{
         width: 100%;
         display: flex;
