@@ -312,15 +312,21 @@ h3{
     line-height: 30px;
     text-align: justify;
 
+}
 
+.footer_content{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    padding: 20px 0;
 }
 
 #footer {
     width: 100%;
-    height: 75px;
     background-color: black;
-    display: flex;
-    flex-wrap: nowrap;
+    /* display: flex;
+    flex-wrap: nowrap; */
 }
 p{
     margin: auto;
@@ -329,6 +335,10 @@ p{
     width: 200px;
     height: 75px;
     background-image: url("img/vscinemas_logo.png");
+}
+
+.footer_content{
+    text-align: center;
 }
 
 #point2{
